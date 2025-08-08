@@ -5,14 +5,19 @@ PredictiLoan/
 │
 ├── data/
 │   ├── raw/
+│   │   └── loan_approval_dataset.csv
 │   │
 │   ├── processed/
+│   │   └── processed_data.csv
 │   │
 │   └──curated/
+│       ├── test.csv
+│       └── train.csv
 │
 ├── notebooks/
 │   ├── 00_init.ipynb
-│   ├──
+│   ├── 01_data_setup.ipynb
+│   ├── 02_model_training_and_evaluation.ipynb
 │   └──
 │
 ├── src/                                    # Python scripts for modular implementation
