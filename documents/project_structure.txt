@@ -1,0 +1,40 @@
+PredictiLoan/
+│
+├── documents/
+│   └── project_structure.txt
+│
+├── data/
+│   ├── raw/
+│   │
+│   ├── processed/
+│   │
+│   └──curated/
+│
+├── notebooks/
+│   ├── 00_init.ipynb
+│   ├──
+│   └──
+│
+├── src/                                    # Python scripts for modular implementation
+│   ├── __init__.py
+│   ├── __00__paths.py
+│   ├──
+│   └──
+│
+├── outputs/                             # Python scripts for modular implementation
+│   ├── model/
+│   │   └──
+│   │
+│   ├── figures/
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   │
+│   └── docs/
+│       ├──
+│       └──
+│
+├── main.py                          # Fast running for  Model Creation
+├── README.md                        # Full description, instructions, results
+├── requirements.txt                 # Python dependencies
+└── .gitignore
